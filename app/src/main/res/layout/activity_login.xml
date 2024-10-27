@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome\nBack"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:textSize="87dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/freescript"
+            android:lineSpacingExtra="-16dp"/>
+
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/edittext_bg"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:hint="Email"
+            android:textColorHint="@color/white"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/edittext_bg"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:hint="Password"
+            android:layout_marginTop="32dp"
+            android:textColorHint="@color/white"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forget your password ? Recovery it"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Button"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_bg"
+            android:text="Login"/>
+
+
+        <TextView
+            android:id="@+id/signupText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New User ? Signup"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"/>
+    </LinearLayout>
+
+</ScrollView>
